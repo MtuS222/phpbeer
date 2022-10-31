@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.topnav {
+    font-size: large;
+    overflow: hidden;
+    background-color: #f0c000 ;  
+    /* Salvando as cores - Amarelo alaranjado: #f0a818 */
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.margemMenu{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.topnav a:hover {
+    background-color: #D3650E;
+    /* Salvando as cores - Amarelo claro: #f0c000 */
+    color: white;
+}
+
+.header {
+    text-align: center;
+    background-color: #f0c000;
+    height: 500px;
+}
+
+.header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
