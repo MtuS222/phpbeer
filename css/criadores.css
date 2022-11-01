@@ -1,0 +1,71 @@
+#anchor-criador{
+    background-color: var(--fundosite);
+    width: 100%;
+    height: 200vh;
+    padding: 60px 60px 0 60px;
+}
+
+#anchor-criador .container {
+    background-color: var(--fundocriadores);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 100%;
+    width: 100%;
+    padding: 40px;
+}
+
+.criador{
+    display: flex;
+    width: 100%;
+    height: 400px;  
+    margin-bottom: 60px;
+}
+
+.criador .dados-criador {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 100%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+
+}
+.criador .dados-criador a{
+    text-decoration: none;
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
+    color: black;
+    padding: 10px;  
+    margin: 0 10px;  
+}
+
+.criador .dados-criador a:hover{
+    border-bottom:2px black solid ;
+}
+
+.criador .dados-criador img {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+
+.criador .apresentacao-criador {
+    margin-left: 30px;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.criador .apresentacao-criador p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.criador .dados-criador row {
+    display: flex;
+}

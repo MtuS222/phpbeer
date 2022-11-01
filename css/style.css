@@ -1,17 +1,17 @@
 * {
     box-sizing: border-box;
-}
-
-body {
     padding: 0px;
     margin: 0px;
+    font-family: system-ui;
 }
 
 .topnav {
     font-size: large;
     overflow: hidden;
-    background-color: #f0c000 ;  
-    /* Salvando as cores - Amarelo alaranjado: #f0a818 */
+    background-color: var(--amareloalaranjado);
+    z-index: 1000;
+    position: sticky;
+    top: 0;
 }
 
 .topnav a {
@@ -22,20 +22,20 @@ body {
     padding: 14px 16px;
     text-decoration: none;
 }
-.margemMenu{
+
+.margemMenu {
     margin-left: 50px;
     margin-right: 50px;
 }
 
 .topnav a:hover {
-    background-color: #D3650E;
-    /* Salvando as cores - Amarelo claro: #f0c000 */
+    background-color: var(--laranja);
     color: white;
 }
 
 .header {
     text-align: center;
-    background-color: #f0c000;
+    background-color: var(--amareloalaranjado);
     height: 500px;
 }
 
