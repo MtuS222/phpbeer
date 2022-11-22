@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP Beer | Contato</title>
+    <style type="text/css"></style>
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contato.css">
+</head>
+
+<body>
+    <header class="header">
+        <img src="img/PHPlogo.jpg" alt="Cerveja Geladinha">
+    </header>
+    <nav class="topnav">
+        <div class="margemMenu">
+            <a href="index.html">Home</a>
+            <a href="sobre-nos.html">Sobre Nós</a>
+            <a href="tipos-cervejas.html">Tipos de Cerveja</a>
+            <a href="nossas.html">Nossos Produtos</a>
+            <a href="encontrar.html">Onde Encontrar</a>
+            <a href="#">Contato</a>
+            <a href="criadores.html">Criadores</a>
+        </div>
+    </nav>
+    <section class="conteudo">
+        <article class="enquete">
+            <form action="index.html" method="post">
+                <h2>Fale Conosco</h2>
+                <fieldset>
+                    <legend>Informações Pessoais</legend>
+                    <div>
+                        <label for="txtNome" class="rotulo">Nome Completo:</label>
+                        <input type="text" name="txtNome" id="txtNome" placeholder="Ex: Jacinto Leite" required> <br>
+                    </div>
+
+                    <div>
+                        <label for="" class="rotulo">Sexo:</label>
+                        <input type="radio" name="sexo" id="verifyMasc"> <label for="verifyMasc">Masculino</label>
+                        <input type="radio" name="sexo" id="verifyFem"> <label for="verifyFem">Feminino</label>
+                        <input type="radio" name="sexo" id="verifyOutro"> <label for="verifyOutro">Outro</label> <br>
+                    </div>
+
+                    <div>
+                        <label for="txtEmail" class="rotulo">Email:</label>
+                        <input type="email" name="txtEmail" id="txtEmail" placeholder="EX: aquinorego@gmail.com"
+                            required>
+                        <br>
+                    </div>
+
+                    <div>
+                        <label for="txtTelefone" class="rotulo">Telefone:</label>
+                        <input type="tel" name="txtTelefone" id="txtTelefone" placeholder="EX: (69) 9 9999-9999"
+                            required>
+                        <br>
+                    </div>
+                </fieldset>
+            
+                <div>
+                    <label for="selectaSSUNTO" class="rotulo">Assunto: </label>
+                    <select name="assunto" id="selectAssunto">
+                        <option value="">Selecione um Assunto</option>
+                        <option value="COM">Compra</option>
+                        <option value="CAN">Cancelamento</option>
+                        <option value="REC">Reclamação</option>
+                        <option value="SUB">Substituição</option>
+                        <option value="TOR">Tornar-se Revendedor</option>
+                        <option value="OUT">Outro</option>
+                    </select> <br>
+                </div>
+                <div>
+                    <label for="txtPergunta" class="rotulo">Observações:</label>
+                    <textarea name="pergunta" id="txtPergunta" cols="30" rows="1"></textarea>
+                </div>
+                <div>
+                    <input type="submit" class="botao" value="Salvar">
+                    <input type="reset" class="botao" value="Limpar">
+                </div>
+            </form>
+        </article>
+    </section>

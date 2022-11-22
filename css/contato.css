@@ -1,0 +1,39 @@
+.enquete{
+    color: #FFFFFF;
+    margin: 25px;
+    width: 50%;
+    padding: 15px;
+    background-color: var(--laranja);
+    border-radius: 5px;
+    box-shadow: -5px 5px #FFFFFF;
+}
+input[type=text],
+input[type=tel],
+input[type=email],
+select, 
+textarea{
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    resize: none;
+}
+select{
+    display: inline-table;
+    width: 100%;
+}
+
+.botao{
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 5px;
+    background-color: #FFFFFF;
+}
+.botao:hover{
+    background-color: var(--fundocriadores);
+}
+
+.conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}

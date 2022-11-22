@@ -1,0 +1,60 @@
+#anchor-nossas{
+    background-color: var(--fundosite);
+    width: 100%;
+    height: 275vh;
+    padding: 60px 60px 0 60px;
+}
+
+#anchor-nossas .container {
+    background-color: var(--fundocriadores);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 100%;
+    width: 100%;
+    padding: 40px;
+}
+
+.nossas{
+    display: flex;
+    width: 100%;
+    height: 400px;  
+    margin-bottom: 60px;
+}
+
+.nossas .dados-nossas {
+    font-size: 22px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 100%;
+    background-color: var(--fundocriadores);
+    border-radius: 10px;
+
+}
+
+.nossas .dados-nossas img {
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+}
+
+.nossas .apresentacao-nossas {
+    margin-left: 30px;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: var(--fundocriadores);
+    border-radius: 10px;
+}
+.nossas .apresentacao-nossas p{
+    font-size: 23px;
+    text-align: justify;
+}
+
+.nossas .dados-nossas row {
+    display: flex;
+}
